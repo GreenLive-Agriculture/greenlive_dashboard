@@ -10,7 +10,7 @@ const Overview = () => {
             <div className="w-full">
                 <button className="p-4 grow-0 flex gap-2 bg-white rounded-lg items-center border border-[#E2E8F0] shadow">
                     <IoCalendarClearOutline />
-                    <p>Dec 29, 2023 - Jan 4, 2024</p>
+                    <p>Sept 29, 2023 - Nov 4, 2023</p>
                 </button>
             </div>
             {/* Historic */}
@@ -21,27 +21,27 @@ const Overview = () => {
                     <div className="flex flex-row items-center">
                         <p className="text-2xl font-bold">18.61</p>
                         <IoChevronUp className="text-green-600 text-sm font-bold" />
-                        <p className="text-green-600 text-xs font-light">18%</p>
+                        <p className="text-green-600 text-xs font-light">-18%</p>
                     </div>
                     <p>Besoin en eau</p>
                 </div>
                 <hr className="border border-[#E2E8F0] h-full" />
                 <div className="flex flex-col gap-1">
                     <div className="flex flex-row items-center">
-                        <p className="text-2xl font-bold">18.61</p>
+                        <p className="text-2xl font-bold">1.1</p>
                         <IoChevronUp className="text-green-600 text-sm font-bold" />
-                        <p className="text-green-600 text-xs font-light">18%</p>
+                        <p className="text-green-600 text-xs font-light">-1%</p>
                     </div>
-                    <p>Besoin en eau</p>
+                    <p>Besoin en fertilisant</p>
                 </div>
                 <hr className="border border-[#E2E8F0] h-full" />
                 <div className="flex flex-col gap-1">
                     <div className="flex flex-row items-center">
-                        <p className="text-2xl font-bold">18.61</p>
+                        <p className="text-2xl font-bold">0</p>
                         <IoChevronUp className="text-green-600 text-sm font-bold" />
-                        <p className="text-green-600 text-xs font-light">18%</p>
+                        <p className="text-green-600 text-xs font-light">0%</p>
                     </div>
-                    <p>Besoin en eau</p>
+                    <p>Besoin en Pesticides</p>
                 </div>
             </div>
             {/* Doughnut */}
